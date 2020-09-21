@@ -38,7 +38,7 @@ cd Pointtilter
 python train.py
 ```
 
-## Test
+## Test with Pre-trained Model
 Use the script 'eval.py' to test your dataset:
 ``` bash
 cd Pointtilter
