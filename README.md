@@ -45,10 +45,13 @@ cd Pointtilter
 python eval.py
 ```
 
-## Average errors of all filtered point clouds over our test models (4 models with 0.5% Gaussian noise)
-| Chamfer Distance | Mean Square Error (10^-3)| 
-| - | - | 
-|0.903 | 3.908|
+## Errors of point clouds in Fig. 6 (4 models with 0.5% Gaussian noise)
+|Models | Chamfer Distance (10^-5) | Mean Square Error (10^-3)| 
+| - | - | - | 
+|Boxunion    | 0.899 | 4.235|
+|Cube        | 1.236 | 5.314|
+|Fandisk     | 0.699 | 3.952|
+|Tetrahedron | 0.745 | 4.098|
 
 ## Visual Results
 <p align="center"> <img src="Images/Visual Results.jpg" width="75%"> </p>
