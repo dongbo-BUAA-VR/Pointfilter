@@ -46,9 +46,9 @@ python eval.py
 ```
 
 ## Average errors of all filtered point clouds over our test models (15 models with 0.5% Gaussian noise)
-| Mean Square Error (10^-3)| 
-| - | 
-|3.884|
+| Chamfer Distance | Mean Square Error (10^-3)| 
+| - | - | 
+|0.903 | 3.884|
 
 ## Visual Results
 <p align="center"> <img src="Images/Visual Results.jpg" width="75%"> </p>
