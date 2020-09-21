@@ -52,6 +52,7 @@ python eval.py
 
 ## Visual Results
 <p align="center"> <img src="Images/Visual Results.jpg" width="75%"> </p>
+<p align="center"> <img src="Images/Error Results.jpg" width="75%"> </p>
 
 ## Acknowledgements
 This code largely benefits from following repositories:
