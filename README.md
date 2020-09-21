@@ -45,6 +45,11 @@ cd Pointtilter
 python eval.py
 ```
 
+## Average errors of all filtered point clouds over our test models (15 models with 0.5% Gaussian noise)
+| Chamfer Distance (10^-5) | Mean Square Error (10^-3)| 
+| - | - | 
+| 0.833 | 3.844 |
+
 ## Acknowledgements
 This code largely benefits from following repositories:
 * [PointNet](http://stanford.edu/~rqi/pointnet/)
