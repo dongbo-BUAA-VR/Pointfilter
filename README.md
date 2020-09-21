@@ -57,7 +57,7 @@ python eval.py
   
 ## Visual Results
 
-<p align="center"> <img src="Images/Visual Results.pngidth="100%" </p>
+<p align="center"> <img src="Images/Visual Results.png" width="100%" </p>
 
 
 ## Acknowledgements
