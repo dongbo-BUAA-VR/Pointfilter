@@ -51,7 +51,7 @@ python eval.py
 | 0.833 | 3.844 |
 
 ## Visual Results
-<p align="center"> <img src="Images/Visual Results.png" width="75%"> </p>
+<p align="center"> <img src="Images/Visual Results.jpg" width="75%"> </p>
 
 ## Acknowledgements
 This code largely benefits from following repositories:
