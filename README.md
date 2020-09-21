@@ -39,7 +39,7 @@ python train.py
 ```
 
 ## Test with Pre-trained Model
-Use the script `eval.py` to test your dataset:
+Use the script `eval.py` to test dataset:
 ``` bash
 cd Pointtilter
 python eval.py
