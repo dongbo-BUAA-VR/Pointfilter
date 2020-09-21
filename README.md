@@ -13,7 +13,7 @@ The pipeline is built based on [PointNet](http://stanford.edu/~rqi/pointnet/) (a
 
 
 ## Datasets
-You can download the datasets from the following [link](https://entuedu-my.sharepoint.com/:f:/g/personal/n1805982j_e_ntu_edu_sg/Er5PVpfMIBZDiucsZSUX-AsB8QXXHIfzVfENWSj1u9TNng?e=wEFDZY). Create a folder named Dataset and unzip the `Train.zip` and `Test.zip` files on it. In the datasets the input and ground truth point clouds are stored in different files with '.npy' extension. For each clean point cloud 'name.npy', there are 5 correponsing noisy models named as 'name_0.0025.npy', 'name_0.005.npy', 'name_0.01.npy', '0.015.npy', and 'name_0.025.npy'.  
+You can download the datasets from the following [link](https://entuedu-my.sharepoint.com/:f:/g/personal/n1805982j_e_ntu_edu_sg/Er5PVpfMIBZDiucsZSUX-AsB8QXXHIfzVfENWSj1u9TNng?e=wEFDZY). Create a folder named Dataset and unzip the `Train.zip` and `Test.zip` files on it. In the datasets the input and ground truth point clouds are stored in different files with '.npy' extension. For each clean point cloud `name.npy` with normals `name_normal.npy`, there are 5 correponsing noisy models named as `name_0.0025.npy`, `name_0.005.npy`, `name_0.01.npy`, `name_0.015.npy`, and `name_0.025.npy`.  
 
 
 ## Setup
@@ -32,14 +32,14 @@ cd Pointfilter
 ```
 
 ## Train
-Use the script 'train.py' to train a model in the our dataset:
+Use the script `train.py` to train a model in the our dataset:
 ``` bash
 cd Pointtilter
 python train.py
 ```
 
 ## Test with Pre-trained Model
-Use the script 'eval.py' to test your dataset:
+Use the script `eval.py` to test your dataset:
 ``` bash
 cd Pointtilter
 python eval.py
