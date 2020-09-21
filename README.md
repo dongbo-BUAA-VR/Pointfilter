@@ -8,8 +8,9 @@ The pipeline is builded based on [PointNet](http://stanford.edu/~rqi/pointnet/) 
 ## Environment
 * Python 3.6
 * PyTorch 1.0.0
-* CUDA and CuDNN if training on the GPU (CUDA 9.0 & CuDNN 7.0)
 * TensorboardX (1.6) if logging training infos. 
+* CUDA and CuDNN if training on the GPU (CUDA 9.0 & CuDNN 7.0)
+
 
 ## Datasets
 You can download the dataset from the following [link](https://entuedu-my.sharepoint.com/:f:/g/personal/n1805982j_e_ntu_edu_sg/Er5PVpfMIBZDiucsZSUX-AsB8QXXHIfzVfENWSj1u9TNng?e=wEFDZY). Create a folder named Dataset and unzip the `Train.zip` and `Test.zip` files on it. 
