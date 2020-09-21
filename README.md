@@ -52,10 +52,10 @@ python eval.py
 |Cube        | 1.236 | 5.314|
 |Fandisk     | 0.699 | 3.952|
 |Tetrahedron | 0.745 | 4.098|
-
+<p align="center"> <img src="Images/Error Results.png" width="100 </p>
 ## Visual Results
-<p align="center"> <img src="Images/Visual Results.jpg" width="75%"> </p>
-<p align="center"> <img src="Images/Error Results.jpg" width="75%"> </p>
+<p align="center"> <img src="Images/Visual Results.pngidth="100 </p>
+
 
 ## Acknowledgements
 This code largely benefits from following repositories:
