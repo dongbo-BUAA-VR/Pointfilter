@@ -3,17 +3,17 @@ This is our implementation of Pointfilter, a network that automatically and robu
 
 <p align="center"> <img src="Images/pipeline.png" width="75%"> </p>
 
-The pipeline is builded based on [PointNet](http://stanford.edu/~rqi/pointnet/) (a patch-based version of [PointNet](http://stanford.edu/~rqi/pointnet/)). Instead of using STN for alignment, we align the input patches by aligning their principle axes of the PCA with the Cartesian space.
+The pipeline is built based on [PointNet](http://stanford.edu/~rqi/pointnet/) (a patch-based version of [PointNet](http://stanford.edu/~rqi/pointnet/)). Instead of using STN for alignment, we align the input patches by aligning their principal axes of the PCA with the Cartesian space.
 
 ## Environment
 * Python 3.6
 * PyTorch 1.0.0
-* TensorboardX (1.6) if logging training infos. 
+* TensorboardX (1.6) if logging training info. 
 * CUDA and CuDNN if training on the GPU (CUDA 9.0 & CuDNN 7.0)
 
 
 ## Datasets
-You can download the dataset from the following [link](https://entuedu-my.sharepoint.com/:f:/g/personal/n1805982j_e_ntu_edu_sg/Er5PVpfMIBZDiucsZSUX-AsB8QXXHIfzVfENWSj1u9TNng?e=wEFDZY). Create a folder named Dataset and unzip the `Train.zip` and `Test.zip` files on it. 
+You can download the datasets from the following [link](https://entuedu-my.sharepoint.com/:f:/g/personal/n1805982j_e_ntu_edu_sg/Er5PVpfMIBZDiucsZSUX-AsB8QXXHIfzVfENWSj1u9TNng?e=wEFDZY). Create a folder named Dataset and unzip the `Train.zip` and `Test.zip` files on it. In the datasets the input and ground truth point clouds are stored in different files with '.npy' extension. For each clean point cloud 'name.npy', there are 5 correponsing noisy models named as 'name_0.0025.npy', 'name_0.005.npy', 'name_0.01.npy', '0.015.npy', and 'name_0.025.npy'.  
 
 
 ## Setup
