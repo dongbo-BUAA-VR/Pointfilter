@@ -29,7 +29,7 @@ class chamferFunction(Function):
 
     @staticmethod
     def backward(ctx, graddist1, graddist2):
-        xyz1, xyz2, idx1, idx2 = ctx.saved_variables
+        xyz1, xyz2, idx1, idx2 = ctx.saved_tensors
         graddist1 = graddist1.contiguous()
         graddist2 = graddist2.contiguous()
 
