@@ -13,7 +13,7 @@ The pipeline is built based on [PointNet](http://stanford.edu/~rqi/pointnet/) (a
 
 
 ## Datasets
-You can download the datasets from the following [link](https://entuedu-my.sharepoint.com/:f:/g/personal/n1805982j_e_ntu_edu_sg/Er5PVpfMIBZDiucsZSUX-AsB8QXXHIfzVfENWSj1u9TNng?e=wEFDZY). Create a folder named Dataset and unzip the `Train.zip` and `Test.zip` files on it. In the datasets the input and ground truth point clouds are stored in different files with '.npy' extension. For each clean point cloud `name.npy` with normals `name_normal.npy`, there are 5 correponsing noisy models named as `name_0.0025.npy`, `name_0.005.npy`, `name_0.01.npy`, `name_0.015.npy`, and `name_0.025.npy`.  
+You can download the training datasets used in this work from the following [link](https://entuedu-my.sharepoint.com/:f:/g/personal/n1805982j_e_ntu_edu_sg/Er5PVpfMIBZDiucsZSUX-AsB8QXXHIfzVfENWSj1u9TNng?e=wEFDZY), or prepare yourself datasets and change corresponding codes in `Pointfilter_DataLoader.py`. Create a folder named Dataset and unzip the files on it. In the datasets the input and ground truth point clouds are stored in different files with '.npy' extension. For each clean point cloud `name.npy` with normals `name_normal.npy`, there are 5 correponsing noisy models named as `name_0.0025.npy`, `name_0.005.npy`, `name_0.01.npy`, `name_0.015.npy`, and `name_0.025.npy`.  
 
 
 ## Setup
@@ -22,7 +22,7 @@ Install required python packages:
 pip install numpy
 pip install scipy
 pip install scikit-learn
-pip install tensorboardX
+pip install tensorboardX (only for training stage)
 ```
 
 Clone this repository:
@@ -39,7 +39,6 @@ python train.py
 ```
 
 ## Test with Pre-trained Model
-Use the script `eval.py` to test dataset:
 ``` bash
 cd Pointtilter
 python eval.py
