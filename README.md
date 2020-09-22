@@ -7,9 +7,10 @@ The pipeline is built based on [PointNet](http://stanford.edu/~rqi/pointnet/) (a
 
 ## Environment
 * Python 3.6
-* PyTorch 1.0.0
-* CUDA and CuDNN (CUDA 9.0 & CuDNN 7.0)
-* TensorboardX (1.6) if logging training info. 
+* PyTorch 1.3.1
+* Windows 10 and VS 2017 (VS 2017 is used for compling the chamfer operators)
+* CUDA and CuDNN (CUDA 10.1 & CuDNN 7.5)
+* TensorboardX (2.0) if logging training info. 
 
 
 ## Datasets
