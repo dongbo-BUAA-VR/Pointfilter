@@ -41,6 +41,7 @@ python train.py
 ## Test with Pre-trained Model
 ``` bash
 cd Pointtilter
+python test.py
 python eval.py
 ```
 
