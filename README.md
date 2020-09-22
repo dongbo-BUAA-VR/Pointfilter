@@ -34,16 +34,23 @@ cd Pointfilter
 ## Train
 Use the script `train.py` to train a model in the our dataset:
 ``` bash
-cd Pointtilter
+cd Pointfilter
 python train.py
+```
+
+## Compile Chamfer Opertors (only for evaluation)
+``` bash
+cd ./Pointfilter/Customer_Module/chamfer_distance
+python setup.py install
 ```
 
 ## Test with Pre-trained Model
 ``` bash
-cd Pointtilter
+cd Pointfilter
 python test.py
 python eval.py
 ```
+
 
 ## Errors of point clouds in Fig. 6 (4 models with 0.5% Gaussian noise)
 |Models | Chamfer Distance (10^-5) | Mean Square Error (10^-3)| 
