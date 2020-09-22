@@ -1,4 +1,4 @@
-# Pointfilter : Point Cloud Filtering via Encoder-Decoder Modeling
+# Pointfilter: Point Cloud Filtering via Encoder-Decoder Modeling
 This is our implementation of Pointfilter, a network that automatically and robustly filters point clouds by removing noise and preserving their sharp features.
 
 <p align="center"> <img src="Images/pipeline.png" width="75%"> </p>
@@ -8,8 +8,8 @@ The pipeline is built based on [PointNet](http://stanford.edu/~rqi/pointnet/) (a
 ## Environment
 * Python 3.6
 * PyTorch 1.0.0
+* CUDA and CuDNN (CUDA 9.0 & CuDNN 7.0)
 * TensorboardX (1.6) if logging training info. 
-* CUDA and CuDNN if training on the GPU (CUDA 9.0 & CuDNN 7.0)
 
 
 ## Datasets
