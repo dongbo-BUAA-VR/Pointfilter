@@ -32,17 +32,17 @@ git clone https://github.com/dongbo-BUAA-VR/Pointfilter.git
 cd Pointfilter
 ```
 
+### Compile Chamfer Opertors (only for evaluation)
+``` bash
+cd ./Pointfilter/Customer_Module/chamfer_distance
+python setup.py install
+```
+
 ## Train
 Use the script `train.py` to train a model in the our dataset:
 ``` bash
 cd Pointfilter
 python train.py
-```
-
-## Compile Chamfer Opertors (only for evaluation)
-``` bash
-cd ./Pointfilter/Customer_Module/chamfer_distance
-python setup.py install
 ```
 
 ## Test with Pre-trained Model
