@@ -32,7 +32,7 @@ git clone https://github.com/dongbo-BUAA-VR/Pointfilter.git
 cd Pointfilter
 ```
 
-### Compile Chamfer Opertors (only for evaluation)
+Compile Chamfer Opertors (only for evaluation)
 ``` bash
 cd ./Pointfilter/Customer_Module/chamfer_distance
 python setup.py install
