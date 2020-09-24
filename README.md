@@ -67,6 +67,18 @@ python eval.py
 
 <p align="center"> <img src="Images/Visual Results.png" width="100%" </p>
 
+## Citation
+If you use our work, please cite our paper:
+```
+@misc{zhang2020pointfilter,
+    title={Pointfilter: Point Cloud Filtering via Encoder-Decoder Modeling},
+    author={Dongbo Zhang and Xuequan Lu and Hong Qin and Ying He},
+    year={2020},
+    eprint={2002.05968},
+    archivePrefix={arXiv},
+    primaryClass={cs.GR}
+}
+```
 
 ## Acknowledgements
 This code largely benefits from following repositories:
