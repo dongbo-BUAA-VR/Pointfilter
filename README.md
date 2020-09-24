@@ -70,13 +70,11 @@ python eval.py
 ## Citation
 If you use our work, please cite our paper:
 ```
-@misc{zhang2020pointfilter,
-    title={Pointfilter: Point Cloud Filtering via Encoder-Decoder Modeling},
-    author={Dongbo Zhang and Xuequan Lu and Hong Qin and Ying He},
-    year={2020},
-    eprint={2002.05968},
-    archivePrefix={arXiv},
-    primaryClass={cs.GR}
+@article{zhang2020pointfilter,
+  title={Pointfilter: Point cloud filtering via encoder-decoder modeling},
+  author={Zhang, Dongbo and Lu, Xuequan and Qin, Hong and He, Ying},
+  journal={arXiv preprint arXiv:2002.05968},
+  year={2020}
 }
 ```
 
