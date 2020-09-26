@@ -68,12 +68,12 @@ python eval.py
 <p align="center"> <img src="Images/Visual Results.png" width="100%" </p>
 
 ## Citation
-If you use our work, please cite our paper:
+If you use our work, please cite our [paper](https://arxiv.org/abs/2002.05968):
 ```
 @article{zhang2020pointfilter,
   title={Pointfilter: Point cloud filtering via encoder-decoder modeling},
   author={Zhang, Dongbo and Lu, Xuequan and Qin, Hong and He, Ying},
-  journal={arXiv preprint arXiv:2002.05968},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
   year={2020}
 }
 ```
