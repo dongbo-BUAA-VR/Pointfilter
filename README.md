@@ -47,13 +47,22 @@ cd Pointfilter
 python train.py
 ```
 
-## Test with Pre-trained Model (The filtered results are saved at `./Dataset/Results`)
+## Test with Pre-trained Model (The filtered results will be saved at `./Dataset/Results`)
 ``` bash
 cd Pointfilter
-python test.py
-python eval.py
+python test.py --eval_dir ./Pointfilter/Summary/pre_train_model
+```
+## Test with Re-trained Model
+``` bash
+cd Pointfilter
+python test.py --eval_dir ./Pointfilter/Summary/Train
 ```
 
+## Eval our filtered results under Chamfer Distance and Mean Square Error
+``` bash
+cd Pointfilter
+python eval_fig6.py
+```
 
 ## Errors of point clouds in Fig. 6 (4 models with 0.5% Gaussian noise)
 |Models | Chamfer Distance (10^-5) | Mean Square Error (10^-3)| 
