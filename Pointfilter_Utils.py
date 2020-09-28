@@ -48,7 +48,7 @@ def parse_arguments():
     parser.add_argument('--repulsion_alpha', type=float, default='0.97', help='')
 
     # evaluation parameters
-    parser.add_argument('--eval_dir', type=str, default='./results/mytrain/', help='')
+    parser.add_argument('--eval_dir', type=str, default='./Summary/pre_train_model', help='')
     parser.add_argument('--eval_iter_nums', type=int, default=10, help='')
 
     return parser.parse_args()
