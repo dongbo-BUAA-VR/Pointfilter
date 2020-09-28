@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
     parameters = parse_arguments()
     parameters.testset = './Dataset/Test'
-    parameters.eval_dir = './Summary/pre_train_model/'
+    #parameters.eval_dir = './Summary/pre_train_model/'
     parameters.batchSize = 64
     parameters.workers = 8
     parameters.save_dir = './Dataset/Results/'
