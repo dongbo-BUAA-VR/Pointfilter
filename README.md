@@ -24,6 +24,7 @@ pip install numpy
 pip install scipy
 pip install scikit-learn
 pip install tensorboardX (only for training stage)
+pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 Clone this repository:
@@ -45,7 +46,7 @@ cd Pointfilter
 python train.py
 ```
 
-## Test with Pre-trained Model
+## Test with Pre-trained Model (The filtered results are saved at `./Dataset/Results`)
 ``` bash
 cd Pointfilter
 python test.py
