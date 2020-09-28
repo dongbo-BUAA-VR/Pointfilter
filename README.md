@@ -50,12 +50,12 @@ python train.py
 ## Test with Pre-trained Model (The filtered results will be saved at `./Dataset/Results`)
 ``` bash
 cd Pointfilter
-python test.py --eval_dir ./Pointfilter/Summary/pre_train_model
+python test.py --eval_dir ./Summary/pre_train_model
 ```
 ## Test with Re-trained Model
 ``` bash
 cd Pointfilter
-python test.py --eval_dir ./Pointfilter/Summary/Train
+python test.py --eval_dir ./Summary/Train
 ```
 
 ## Eval our filtered results under Chamfer Distance and Mean Square Error
