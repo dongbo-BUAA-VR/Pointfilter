@@ -41,7 +41,7 @@ python setup.py install
 ```
 
 ## Train
-Use the script `train.py` to train a model in the our dataset:
+Use the script `train.py` to train a model in the our dataset (the re-trained model will be saved at `./Summary/Train`):
 ``` bash
 cd Pointfilter
 python train.py
