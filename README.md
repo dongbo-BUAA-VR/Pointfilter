@@ -65,14 +65,12 @@ python eval_fig6.py
 ```
 
 ## Errors of point clouds in Fig. 6 (4 models with 0.5% Gaussian noise)
-|Models | Chamfer Distance (10^-5) | Mean Square Error (10^-3)| 
-| - | - | - | 
-|Boxunion    | 0.899 | 4.235|
-|Cube        | 1.236 | 5.314|
-|Fandisk     | 0.699 | 3.952|
-|Tetrahedron | 0.745 | 4.098|
-
-<p align="center"> <img src="Images/Error Results.png" width="100%" </p>
+|Models | Chamfer Distance (10^-5) |
+| - | - |
+|Boxunion    | 0.899 |
+|Cube        | 1.236 |
+|Fandisk     | 0.699 |
+|Tetrahedron | 0.745 |
   
 ## Visual Results
 
