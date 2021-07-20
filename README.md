@@ -63,14 +63,6 @@ python test.py --eval_dir ./Summary/Train
 cd Pointfilter
 python eval_fig6.py
 ```
-
-## Errors of point clouds in Fig. 6 (4 models with 0.5% Gaussian noise)
-|Models | Chamfer Distance (10^-5) |
-| - | - |
-|Boxunion    | 0.899 |
-|Cube        | 1.236 |
-|Fandisk     | 0.699 |
-|Tetrahedron | 0.745 |
   
 ## Visual Results
 
