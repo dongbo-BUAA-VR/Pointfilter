@@ -57,12 +57,6 @@ python test.py --eval_dir ./Summary/pre_train_model
 cd Pointfilter
 python test.py --eval_dir ./Summary/Train
 ```
-
-## Eval our filtered results under Chamfer Distance and Mean Square Error
-``` bash
-cd Pointfilter
-python eval_fig6.py
-```
   
 ## Visual Results
 
